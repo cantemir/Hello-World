@@ -1,5 +1,5 @@
-Create or Replace Function Hello-Word return varchar2
-as
+CREATE OR REPLACE Function HelloWorld return varchar2
+is
 begin
-  dbms_output.put_line('Hello World!';
-end Hello-World;
+  return 'Hello-World';
+end HelloWorld;
