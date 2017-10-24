@@ -1,4 +1,4 @@
 From java:7
-COPY JavaHelloWorld.java
+COPY JavaHelloWorld.java .
 RUN javac JavaHelloWorld.java
-CMD [“java”, “JavaHelloWorld”]
+CMD ["java", "JavaHelloWorld"]
